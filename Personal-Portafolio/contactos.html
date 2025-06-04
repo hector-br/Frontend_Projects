@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles_form.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="container-header">
+        <div class="name-log">
+            <div class="icone"></div>
+            <h2>your name</h2>
+        </div>
+        <nav class="container-nav">
+            <ul class="container-options-nav">
+                <li><a href="index.html">Home /</a></li>
+                <li><a href="projects.html">Projects /</a></li>
+                <li><a href="articles.html">Articles /</a></li>
+                <li><a href="contactos.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <form class="container-form">
+            <legend>Formulario</legend>
+
+            <fieldset class="container-question-form">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre", required>
+
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" min="4" max="100" required>
+                
+                <label for="genero">Genero</label>
+                <div>
+                    <input type="radio" id="masculino" name="genero" required>
+                    <label for="masculino">Masculino</label>
+            
+                    <input type="radio" id="femenino" name="genero" required>
+                    <label for="femenino">Femenino</label>
+                </div>
+
+            
+            </fieldset>
+
+            <fieldset class="container-select-form">
+
+                <label for="pais">Pais</label>
+                <select id="pais" name="pais">
+                    <option value="mexico">México</option>
+                    <option value="españa">España</option>
+                    <option value="paris">Paris</option>
+                </select>
+                                
+                <label for="mensaje" id="mensaje" name="mensaje">Mensaje</label>
+                <input type="text">
+
+            </fieldset>
+            <button type="submit" class="button-form">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
