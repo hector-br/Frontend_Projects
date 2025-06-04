@@ -91,6 +91,7 @@ h3{
     grid-area: tres;
     padding: 10px 20px;
     background-color: #f8f9fa;
+    line-height: 1.5;
 }
 .article-one{
     grid-area: dos;
