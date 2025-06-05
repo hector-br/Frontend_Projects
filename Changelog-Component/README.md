@@ -1,6 +1,6 @@
 ##**Changelog Component**
 
-Enlace de la practica correspondiente Personal-Portafolio:
+Enlace de la practica correspondiente Changelog  Component:
 
 https://roadmap.sh/projects/changelog-component
 
