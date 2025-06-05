@@ -1,8 +1,8 @@
 ##**Changelog Component**
 
-https://roadmap.sh/projects/changelog-component
-
 Enlace de la practica correspondiente Changelog  Component:
+
+https://roadmap.sh/projects/changelog-component
 
 Enlace del desarrollo de la practica:
 
