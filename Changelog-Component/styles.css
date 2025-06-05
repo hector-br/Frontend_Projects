@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --font-family:"Winky Rough", sans-serif;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family);
+    font-size: 18px;
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+p{
+    padding: 5px;
+}
+.container-header{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #e0dbd7;
+}
+.title-header{
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.paragraph-header{
+    border: none;
+}
+.container-main{
+    display: grid;
+    align-self: center;
+    padding: 10px;
+    margin-top: 40px;    
+}
+.container-section{
+    margin: 0 auto;
+}
+.cambio{
+    display: grid;
+    grid-template-columns:  30% 70%;
+    gap: 3em;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+.fecha{
+    color: gray;
+    opacity: .7;
+    border-right: solid 4px black;
+    padding-right: 10px;
+    position: relative;
+}
+
+.fecha::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.fecha::before {
+  top: 36px;
+  left: 158px;
+}
+.fecha-update::before{
+    content: none;
+}
+.container-footer{
+    text-align: center;
+}
+button{
+    padding: 15px 25px;
+    background-color: blue;
+    color: #ffffff;
+    border:none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 40px;
+    font-family: var(--font-family);
+}
+
+
+@media(max-width:650px){
+    body{
+        font-size: 12px;
+    }
+    .title-header{
+        font-size: 35px;
+    }
+    .container-main{
+        grid-template-columns: 1fr;  
+    }
+    .container-section{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .cambio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .fecha{
+        width: 30%;
+        height: 70px;
+        padding-right:80px;
+        color: gray;
+        border-right: solid 3px black;
+        position: relative;
+    }
+
+    .fecha::before{
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+
+    .fecha::before {
+        top: 73px;
+        left: 79px;
+        position: absolute;
+    }
+    .fecha-update::before{
+        content: none;
+    }
+    .container-footer{
+        text-align: center;
+    }
+    button{
+        padding: 10px 20px;
+        background-color: blue;
+        color: #ffffff;
+        border:none;
+        border-radius: 10px;
+        font-size: 13px;
+        margin-top: 40px;
+        font-family: var(--font-family);
+    }
+}
