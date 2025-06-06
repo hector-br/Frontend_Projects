@@ -1,4 +1,4 @@
-##**Changelog Component**
+##**Testimonial Cards**
 
 Enlace de la practica correspondiente Testimonial Cards:
 
