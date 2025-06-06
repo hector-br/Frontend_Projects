@@ -17,7 +17,7 @@ https://roadmap.sh/projects/portfolio-website
 
 https://roadmap.sh/projects/changelog-component
 
-##**Testomonial Cards**
+##**Testimonial Cards**
 
 https://roadmap.sh/projects/testimonial-cards
 
