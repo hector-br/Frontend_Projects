@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f9fa;
+}
+.container-main{
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+    margin-top:40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+}
+input{
+    padding: 8px 0px;
+    border-radius: 10px;
+}
+input:active{
+    background-color:bisque;
+}
+
+.icono{
+    background-image: url(icono/eye.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+button{
+    padding: 8px 0px;
+    border:none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.container-information{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+}
+.porcentaje-compled{
+    margin: 0 auto;
+    width: 80px;
+    height:80px;
+    border:4px solid  #806aff;
+    font-size: 18px;
+    border-radius: 50%;
+    padding-top: 25px;
+    padding-left: 8px;    
+}
+
+.container-information >p:nth-child(2){
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.completes{
+    text-align: start;
+    padding: 10px 40px;
+    line-height: 1.9;
+    background-color: silver;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+.completes p:nth-child(n){
+    text-decoration: line-through;
+    opacity: .6;
+}
+.completes p:nth-child(4){
+    text-decoration: none;
+    opacity: 1;
+    color: #000000;
+}
+.completes p:last-child{
+    opacity: none;
+    opacity: 1;
+    text-decoration: none;
+}
+
+
+@media(min-width:950px){
+    .container-main{
+        margin: 0 auto;
+        max-width: 80%;
+        margin-top:60px;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 1px 2px 12px 2px;
+        border-radius: 10px;
+        padding: 50px 0px;
+    }
+    form{
+        margin: 0 auto;
+        width: 30%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+    .container-information{
+        margin: 0 auto;
+        width: 30%;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
