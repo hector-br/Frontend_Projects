@@ -6,5 +6,5 @@ https://roadmap.sh/projects/image-grid
 
 Enlace del desarrollo de la practica:
 
-https://hector-br.github.io/Frontend_Projects/Image-Grid-Layout 
+https://github.com/hector-br/Frontend_Projects/tree/master/Image-Grid-Layout
 
