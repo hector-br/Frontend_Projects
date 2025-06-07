@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+header{
+    background-color: slateblue;
+    text-align: center;
+    padding: 20px;
+
+}
+nav{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 80px;
+}
+.options-nav{   
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    margin:  0 auto;
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    color: fuchsia;
+    position: absolute;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+    top:65px;
+    letter-spacing: 1px;
+}
+
+/*Mostrar informacion de manera dinamica*/
+.options-nav li:first-child:hover{
+    background-color: blue;
+}
+.options-nav li:nth-child(n):hover ~ p{
+    display: block;
+    transition: 3s;
+}
+
+.container-li{
+    width: 50%;
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 1fr;
+    padding: 50px 10px;
+    border: solid 1px;
+}
+
+.paragraph{
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5;
+    display: block;
+    position: relative;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.flecha{
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 120px;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 30px solid;
+    transform: rotate(180deg);
+    translate: 100px;
+    display: block;
+}
+
+.container-flecha{
+    position: absolute;
+    top:0px;
+        width: 500px;
+    translate: 20px;
+    display: none;
+}
+.options-nav li:nth-child(n):hover +div{
+    display: block;
+    transition: 3s;
+}
+
+
+@media(max-width:1000px) and (min-width:650px){
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 12px;
+    }
+    header{
+        background-color: slateblue;
+        text-align: center;
+        padding: 20px;
+
+    }
+    nav{
+        margin: 0 auto;
+        width: 70%;
+        margin-top: 80px;
+    }
+    .options-nav{   
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li{
+        margin:  0 auto;
+        width: 50%;
+        padding: 10px 20px;
+        background-color: #000000;
+        border-radius: 10px;
+        position: relative;
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
+
+    p{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 10px;
+        display: block;
+        color: fuchsia;
+        position: absolute;
+        background-color: black;
+        padding: 20px 10px;
+        border-radius: 10px;
+        transition: 1s;
+        top:65px;
+        letter-spacing: 1px;
+    }
+
+    /*Mostrar informacion de manera dinamica*/
+    .options-nav li:first-child:hover{
+        background-color: blue;
+    }
+    .options-nav li:nth-child(n):hover ~ p{
+        display: block;
+        transition: 3s;
+    }
+
+    .container-li{
+        width: 50%;
+        display: grid;
+        background-color: aqua;
+        grid-template-columns: 1fr;
+        padding: 50px 10px;
+        border: solid 1px;
+    }
+
+    .paragraph{
+        width: 60%;
+        margin: 0 auto;
+        line-height: 1.5;
+        display: block;
+        position: relative;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .flecha{
+        text-align: center;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 125px;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom: 20px solid;
+        transform: rotate(180deg);
+        translate: 60px;
+        display: block;
+    }
+
+    .container-flecha{
+        position: absolute;
+        top:0px;
+        width: 500px;
+        translate: 0px;
+        display: none;
+    }
+    .options-nav li:nth-child(n):hover +div{
+        display: block;
+        transition: 3s;
+    }
+
+}
+
+
+@media(max-width:650px){
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    header{
+        background-color: slateblue;
+        text-align: center;
+        padding: 20px;
+
+    }
+    nav{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .options-nav{   
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    li{
+        margin:  0 auto;
+        width: 90%;
+        padding: 10px 20px;
+        background-color: #000000;
+        border-radius: 10px;
+        position: relative;
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
+
+    p{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 10px;
+        display: block;
+        color: fuchsia;
+        position: absolute;
+        background-color: black;
+        padding:10px;
+        border-radius: 10px;
+        transition: 1s;
+        top:65px;
+        letter-spacing: 1px;
+    }
+
+    /*Mostrar informacion de manera dinamica*/
+    .options-nav li:first-child:hover{
+        background-color: blue;
+    }
+    .options-nav li:nth-child(n):hover ~ p{
+        display: block;
+        transition: 3s;
+    }
+
+    .container-li{
+        margin:  0 auto;
+        width: 50%;
+        display: grid;
+        background-color: aqua;
+        grid-template-columns: 1fr;
+        padding: 50px 10px;
+        border: solid 1px;
+    }
+
+    .paragraph{
+        width: 60%;
+        margin: 0 auto;
+        line-height: 1.5;
+        display: block;
+        position: relative;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .flecha{
+        text-align: center;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 105px;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom: 20px solid;
+        transform: rotate(180deg);
+        translate: 60px;
+        display: block;
+    }
+
+    .container-flecha{
+        position: absolute;
+        top:25px;
+        width: 500px;
+        translate: -9px;
+        display: block;
+    }
+    .options-nav li:nth-child(n):hover +div{
+        display: block;
+        transition: 3s;
+    }
+    .p-two{
+        top:235px;
+        translate: -30px;
+    }
+    .p-three{
+        top:355px;
+        translate: -50px;
+    }
+}
