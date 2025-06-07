@@ -227,13 +227,13 @@ p{
         position: absolute;
         top:25px;
         width: 500px;
-        translate: -9px;
+        translate: -15px;
     }
     .container-flecha-two{
         top:160px;
     }
     .container-flecha-three{
-        top: 290px;
+        top: 300px;
     }
     .p-two{
         translate: -30px;
