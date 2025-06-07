@@ -42,19 +42,18 @@ p{
     font-size: 18px;
     text-align: center;
     margin-top: 10px;
-    display: none;
     color: fuchsia;
     position: absolute;
     background-color: black;
     padding: 20px;
     border-radius: 10px;
-    transition: 1s;
     top:65px;
     letter-spacing: 1px;
 }
-.p-one{
+.p-one, .p-two, .p-three{
     display: block;
 }
+
 /*Mostrar informacion de manera dinamica*/
 .options-nav li:first-child:hover{
     background-color: blue;
@@ -100,13 +99,15 @@ p{
 .container-flecha{
     position: absolute;
     top:0px;
-        width: 500px;
+    width: 500px;
     translate: 20px;
-    display: none;
+    opacity: 0;
+    transition: .5s;
+    
 }
-.options-nav li:nth-child(n):hover +div{
-    display: block;
-    transition: 3s;
+.options-nav li:nth-child(n):hover ~ .container-flecha{
+    opacity: 1;
+    transition: 1s;
 }
 
 
@@ -147,12 +148,7 @@ p{
         top:0px;
         width: 500px;
         translate: 0px;
-        display: none;
     }
-    .options-nav li:nth-child(n):hover +div{
-        display: block;
-    }
-
 }
 
 
@@ -182,7 +178,6 @@ p{
     p{
         font-size: 12px;
         margin-top: 10px;
-        display: none;
         padding:10px;
         top:65px;
     }
@@ -220,25 +215,30 @@ p{
         translate: 60px;
         display: block;
     }
+    .flecha-two{
+        top: 105px;
+
+    }
+    .flecha-three{
+        top: 105px;
+    }
 
     .container-flecha{
         position: absolute;
         top:25px;
         width: 500px;
         translate: -9px;
-        display: block;
-        display: none;
     }
-    .options-nav li:nth-child(n):hover +div{
-        display: block;
-        transition: 3s;
+    .container-flecha-two{
+        top:160px;
+    }
+    .container-flecha-three{
+        top: 290px;
     }
     .p-two{
-        top:235px;
         translate: -30px;
     }
     .p-three{
-        top:355px;
         translate: -50px;
     }
 }
