@@ -111,66 +111,23 @@ p{
 
 
 @media(max-width:1000px) and (min-width:650px){
-    a{
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 12px;
-    }
-    header{
-        background-color: slateblue;
-        text-align: center;
-        padding: 20px;
-
-    }
-    nav{
-        margin: 0 auto;
-        width: 70%;
-        margin-top: 80px;
-    }
     .options-nav{   
         display: flex;
         justify-content: space-around;
     }
-
     li{
-        margin:  0 auto;
-        width: 50%;
         padding: 10px 20px;
-        background-color: #000000;
-        border-radius: 10px;
         position: relative;
-        cursor: pointer;
-        letter-spacing: 1px;
     }
-
-    /*Mostrar informacion de manera dinamica*/
-    .options-nav li:first-child:hover{
-        background-color: blue;
+    p{
+        font-size: 12px;
     }
-    .options-nav li:nth-child(n):hover ~ p{
-        display: block;
-        transition: 3s;
-    }
-
     .container-li{
         width: 50%;
         display: grid;
         grid-template-columns: 1fr;
         padding: 50px 10px;
     }
-
-    .paragraph{
-        width: 60%;
-        margin: 0 auto;
-        line-height: 1.5;
-        display: block;
-        position: relative;
-        background-color: #ffffff;
-        color: #000000;
-        font-size: 25px;
-        text-align: center;
-    }
-
     .flecha{
         text-align: center;
         width: 10px;
@@ -194,7 +151,6 @@ p{
     }
     .options-nav li:nth-child(n):hover +div{
         display: block;
-        transition: 3s;
     }
 
 }
@@ -202,24 +158,12 @@ p{
 
 @media(max-width:650px){
     a{
-        text-decoration: none;
-        color: #ffffff;
         font-size: 10px;
-    }
-    header{
-        background-color: slateblue;
-        text-align: center;
-        padding: 20px;
-
-    }
+    }   
     nav{
-        margin: 0 auto;
-        width: 90%;
         margin-top: 80px;
-        text-align: center;
     }
     .options-nav{   
-        align-content: center;
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -237,34 +181,18 @@ p{
 
     p{
         font-size: 12px;
-        text-align: center;
         margin-top: 10px;
         display: none;
-        color: fuchsia;
-        position: absolute;
-        background-color: black;
         padding:10px;
-        border-radius: 10px;
-        transition: 1s;
         top:65px;
-        letter-spacing: 1px;
     }
 
-    /*Mostrar informacion de manera dinamica*/
-    .options-nav li:first-child:hover{
-        background-color: blue;
-    }
     .options-nav li:nth-child(n):hover ~ p{
         display: block;
-        transition: 3s;
     }
 
     .container-li{
         margin:  0 auto;
-        width: 50%;
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 50px 10px;
     }
 
     .paragraph{
