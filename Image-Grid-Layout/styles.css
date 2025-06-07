@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+.container-main{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-rows: repeat(3, 1fr);*/
+    
+    grid-template-areas: 
+    "image1 image3 image5"
+    "image1 image4 image5"
+    "image2 image4 image6" ;
+    
+    gap: 1em;
+}
+.image{
+    width: 100%;
+    object-fit: contain;    
+}
+.image-one{
+    grid-area: image1;
+}
+.image-two{
+    grid-area: image2;
+}
+.image-three{
+    grid-area: image3;
+}
+.image-four{
+    grid-area: image4;
+}
+.image-five{
+    grid-area: image5;
+}
+.image-six{
+    grid-area: image6;
+}
+
+
+@media(max-width:500px){
+    .container-main{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "image1 image3"
+        "image1 image4"
+        "image2 image4"
+        "image5 image6" 
+        "image5 image7";
+        
+    }
+    
+    .image{
+        width: 100%;
+        object-fit: contain;    
+    }
+    .image-one{
+        grid-area: image1;
+    }
+    .image-two{
+        grid-area: image2;
+    }
+    .image-three{
+        grid-area: image3;
+    }
+    .image-four{
+        grid-area: image4;
+    }
+    .image-five{
+        grid-area: image5;
+    }
+    .image-six{
+        grid-area: image6;
+    }
+
+}
