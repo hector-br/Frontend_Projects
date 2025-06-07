@@ -42,7 +42,7 @@ p{
     font-size: 18px;
     text-align: center;
     margin-top: 10px;
-    display: block;
+    display: none;
     color: fuchsia;
     position: absolute;
     background-color: black;
@@ -52,7 +52,9 @@ p{
     top:65px;
     letter-spacing: 1px;
 }
-
+.p-one{
+    display: block;
+}
 /*Mostrar informacion de manera dinamica*/
 .options-nav li:first-child:hover{
     background-color: blue;
@@ -65,10 +67,8 @@ p{
 .container-li{
     width: 50%;
     display: grid;
-    background-color: aqua;
     grid-template-columns: 1fr;
     padding: 50px 10px;
-    border: solid 1px;
 }
 
 .paragraph{
@@ -143,21 +143,6 @@ p{
         letter-spacing: 1px;
     }
 
-    p{
-        font-size: 12px;
-        text-align: center;
-        margin-top: 10px;
-        display: block;
-        color: fuchsia;
-        position: absolute;
-        background-color: black;
-        padding: 20px 10px;
-        border-radius: 10px;
-        transition: 1s;
-        top:65px;
-        letter-spacing: 1px;
-    }
-
     /*Mostrar informacion de manera dinamica*/
     .options-nav li:first-child:hover{
         background-color: blue;
@@ -170,10 +155,8 @@ p{
     .container-li{
         width: 50%;
         display: grid;
-        background-color: aqua;
         grid-template-columns: 1fr;
         padding: 50px 10px;
-        border: solid 1px;
     }
 
     .paragraph{
@@ -256,7 +239,7 @@ p{
         font-size: 12px;
         text-align: center;
         margin-top: 10px;
-        display: block;
+        display: none;
         color: fuchsia;
         position: absolute;
         background-color: black;
@@ -280,10 +263,8 @@ p{
         margin:  0 auto;
         width: 50%;
         display: grid;
-        background-color: aqua;
         grid-template-columns: 1fr;
         padding: 50px 10px;
-        border: solid 1px;
     }
 
     .paragraph{
@@ -318,6 +299,7 @@ p{
         width: 500px;
         translate: -9px;
         display: block;
+        display: none;
     }
     .options-nav li:nth-child(n):hover +div{
         display: block;
