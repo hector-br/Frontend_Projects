@@ -107,6 +107,10 @@ footer p:first-child{
         display: none;
         position: absolute;
     }
+    
+    .first-tab{
+        display: block;
+    }
     footer{
         margin: 0 auto;
         width: 90%;
