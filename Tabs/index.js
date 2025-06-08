@@ -9,8 +9,15 @@ firstTab.addEventListener('click', function(){
     const thirdTab = document.getElementById("three-tab");
     const fourthTab = document.getElementById("four-tab");
 
+    const first  =document.getElementById('first');
+    const second  =document.getElementById('second');
+    const third  =document.getElementById('third');
+    const fourth  =document.getElementById('fourth');
+    first.style.borderBottom =  'solid 4px';     
+    second.style.borderBottom =  'none';     
+    third.style.borderBottom =  'none';     
+    fourth.style.borderBottom =  'none';     
     
-    console.log(firstTab);
 
     firstTab.style.display = 'block';    
     secondTab.style.display = 'none';
@@ -27,9 +34,17 @@ secondTab.addEventListener('click', function(){
     const secondTab = document.getElementById("two-tab");
     const thirdTab = document.getElementById("three-tab");
     const fourthTab = document.getElementById("four-tab");
-    
-    console.log(firstTab);
 
+    const first  =document.getElementById('first');
+    const second  =document.getElementById('second');
+    const third  =document.getElementById('third');
+    const fourth  =document.getElementById('fourth');
+    first.style.borderBottom =  'none';     
+    second.style.borderBottom =  'solid 4px';     
+    third.style.borderBottom =  'none';     
+    fourth.style.borderBottom =  'none';     
+    
+    
     firstTab.style.display = 'none';    
     secondTab.style.display = 'block';
     thirdTab.style.display = 'none';
@@ -46,7 +61,14 @@ thirdTab.addEventListener('click', function(){
     const thirdTab = document.getElementById("three-tab");
     const fourthTab = document.getElementById("four-tab");
     
-    console.log(firstTab);
+    const first  =document.getElementById('first');
+    const second  =document.getElementById('second');
+    const third  =document.getElementById('third');
+    const fourth  =document.getElementById('fourth');
+    first.style.borderBottom =  'none';     
+    second.style.borderBottom =  'none';     
+    third.style.borderBottom =  'solid 4px';     
+    fourth.style.borderBottom =  'none';
 
 
     firstTab.style.display = 'none';
@@ -65,7 +87,15 @@ fourthTab.addEventListener('click', function(){
     const thirdTab = document.getElementById("three-tab");
     const fourthTab = document.getElementById("four-tab");
     
-    console.log(firstTab);
+
+    const first  =document.getElementById('first');
+    const second  =document.getElementById('second');
+    const third  =document.getElementById('third');
+    const fourth  =document.getElementById('fourth');
+    first.style.borderBottom =  'none';     
+    second.style.borderBottom =  'none';     
+    third.style.borderBottom =  'none';     
+    fourth.style.borderBottom =  'solid 4px';
 
     firstTab.style.display = 'none';    
     secondTab.style.display = 'none';
