@@ -1,7 +1,6 @@
 ##**Tabs**
 
 Enlace de la practica correspondiente tabs:
-
 https://roadmap.sh/projects/simple-tabs
 
 Enlace del desarrollo de la practica:
