@@ -59,12 +59,9 @@ section{
 }
 .tab{
     color: fuchsia;
-    font-size: 25px;
+    font-size: 35px;
     display: none;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    padding-top: 20px;
 }
 .first-tab{
     display: block;
@@ -103,9 +100,9 @@ footer p:first-child{
         height: 150px;
     }
     .tab{
-        font-size: 16px;
+        font-size: 18px;
+        padding-top: 10px;
         display: none;
-        position: absolute;
     }
     
     .first-tab{
