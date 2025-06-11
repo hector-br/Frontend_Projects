@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: aliceblue;
+    padding: 30px 20px;
+}
+h2, h3{
+    letter-spacing: 1px;
+}
+section{
+    text-align: center;
+    margin-top: 40px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+textarea{
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    resize: none;
+    font-size: 20px;
+    outline: none;
+}
+p{
+    margin:  0 auto;
+    text-align: end;
+    padding: 0xp 10px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 14px;
+    color: gray;
+    pointer-events: none; /* Para evitar que interfiera con la escritura */
+       
+}
+.container-textarea{
+    position: relative;
+    display: inline-block;
+}

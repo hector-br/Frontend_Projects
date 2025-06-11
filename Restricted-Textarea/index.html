@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restricted Textarea</title>
+</head>
+<body>
+    <header>
+        <h2>Restricted textarea</h2>
+    </header>
+    <section>
+            <h3>Write your message</h3>
+            <div class="container-textarea">
+                <textarea id="textarea" maxlength="250" oninput="contarCaracteres()"></textarea>
+                <p><span class="span" id="contador">0</span> / 250</p>
+            </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
