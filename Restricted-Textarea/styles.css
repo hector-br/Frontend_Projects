@@ -50,3 +50,15 @@ p{
     position: relative;
     display: inline-block;
 }
+
+@media(max-width:500px){
+    textarea{
+        width: auto;
+        height: 300px;
+    }
+    p{
+        right: 15px;
+        font-size: 14px;
+        
+    }
+}
