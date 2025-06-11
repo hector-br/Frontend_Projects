@@ -1,6 +1,6 @@
 ##**Restricted textarea**
 
-Enlace de la practica correspondiente tabs:
+Enlace de la practica correspondiente restricted textarea:
 
 https://roadmap.sh/projects/restricted-textarea
 
