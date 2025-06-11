@@ -1,20 +1,19 @@
 function contarCaracteres(){
-    let texo = document.getElementById('textarea'); 
-    let texto = texo.value;   
+    let tarea = document.getElementById('textarea'); 
+    let texto = tarea.value;   
     let numeroCarcateres = document.getElementById('contador').textContent= texto.length;
     
-    let hola  =document.getElementById('textarea');
 
-    const parrafo= document.querySelector('p');
-    console.log(parrafo);
-    console.log(numeroCarcateres);
+    let parrafo= document.querySelector('p');
+    
     if(numeroCarcateres >= 250){
-        console.log("maximo alcanzado");
-        textarea.style.border = 'solid 3px red';  
+        tarea.style.border = 'solid 3px red';  
         parrafo.style.color = 'red';
+        tarea.style.color = 'red';
+        tarea.value = textarea.value.substring(0, 250-1);
     }else{
-        textarea.style.border = 'solid 3px black';  
+        tarea.style.border = 'solid 3px black';  
         parrafo.style.color = 'black';
-
+        tarea.style.color = 'black';
     }
 }
